@@ -1,0 +1,9 @@
+.submit_button:focused {
+    -fx-focus-color: transparent; 
+}
+.login_input:focused {
+    -fx-focus-color: transparent; 
+}
+.password_input:focused {
+    -fx-focus-color: transparent; 
+}
