@@ -7,10 +7,9 @@ import javafx.scene.Scene;
 import javafx.stage.Stage;
 
 public class Main extends Application {
-
     @Override
     public void start(Stage primaryStage) throws Exception{
-        Parent root = FXMLLoader.load(getClass().getResource("sample.fxml"));
+        Parent root=FXMLLoader.load(getClass().getResource("sample.fxml"));
         primaryStage.setTitle("TIPOS Admin page");
         primaryStage.setResizable(false);
         primaryStage.setScene(new Scene(root, 305, 220));
